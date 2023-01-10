@@ -7510,6 +7510,7 @@ button.bg-dark:focus {
 }
 
 .d-block {
+  border-top: 1px solid #cecece;
   display: block !important;
 }
 
@@ -13249,7 +13250,7 @@ textarea.form-control {
 }
 
 .ftco-footer {
-  background-color:antiquewhite;
+  background-color: antiquewhite;
   font-size: 14px;
   padding: 7em 0;
   color: #000000;
@@ -13293,7 +13294,18 @@ textarea.form-control {
   width: 50px;
   display: block;
   float: left;
-  background: rgba(0, 0, 0, 0.02);
+  background: rgba(0, 0, 0, 0.06);
+  border-radius: 50%;
+  position: relative;
+}
+
+.ftco-footer-social li a:hover {
+  height: 50px;
+  width: 50px;
+  display: block;
+  float: left;
+  background-color: #218c74;
+  transition: 0.4s;
   border-radius: 50%;
   position: relative;
 }
@@ -14406,30 +14418,79 @@ textarea.form-control {
 
 
 /*------------------------------------------------------------------*/
-#ftco-nav a:hover{
-    background-color:#218c74;
-    color: #fff;
+#ftco-nav a:hover {
+  background-color: #218c74;
+  color: #fff;
 }
+
 .ftco-navbar-light.scrolled .navbar-brand:hover {
-  color: #218c74 ;
+  color: #218c74;
 }
+
 .ftco-footer2 {
-  background-color:antiquewhite;
+  background-color: antiquewhite;
   font-size: 14px;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 3px;
   color: #000000;
   height: auto;
 }
-.copyright{
-  text-align: center;
-  padding-bottom: 40px;
-}
 
-.row2{
+.row2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: contents;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+}
+
+.section-p1 {
+  padding: 20px 40px;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+footer .col {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+}
+
+.copyright {
+  width: 100%;
+  text-align: center;
+}
+
+.footer-href {
+  padding: 7px 0px;
+}
+
+.bot-footer {
+  width: 100%;
+  padding-top: 20px;
+  background-color: aqua;
+}
+
+.footer-icon {
+  display: flex;
+}
+
+.fa-brands {
+  color: #000;
+  font-size: 30px;
+  padding: 10px 10px;
+  background: rgba(0, 0, 0, 0.03);
+  border-radius: 50%;
+  margin: 0px 12px;
+}
+
+.fa-brands:hover {
+  background-color: #218838;
+  transition: 0.8s;
 }
