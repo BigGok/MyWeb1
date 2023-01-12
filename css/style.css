@@ -14594,7 +14594,6 @@ nav .nav-bar .logo a{
   padding: 10px;
 }
 .nav-links li a:hover{
-  background-color: #218838;
   color: #fff;
 }
 .nav-links li:hover a::before{
@@ -14778,7 +14777,9 @@ body.dark .search-field i{
     border-radius: 0.5rem;
   }
 }
-
-.adsa{
-  padding-top: 200px;
+.head-icon{
+  padding-bottom: 20px;
+}
+.bx-search::before{
+  font-size: 25px;
 }
