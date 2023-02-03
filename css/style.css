@@ -223,6 +223,7 @@ figure {
 }
 
 img {
+  
   vertical-align: middle;
   border-style: none;
 }
@@ -2921,6 +2922,7 @@ textarea.form-control.is-invalid {
 
 .btn:not(:disabled):not(.disabled) {
   cursor: pointer;
+  text-decoration: none;
 }
 
 a.btn.disabled,
@@ -9081,6 +9083,7 @@ button.bg-dark:focus {
 .mr-2,
 .mx-2 {
   margin-right: 0.5rem !important;
+  text-decoration: none;
 }
 
 .mb-2,
@@ -9219,6 +9222,7 @@ button.bg-dark:focus {
 
 .pt-2,
 .py-2 {
+  text-decoration: none;
   padding-top: 0.5rem !important;
 }
 
@@ -12485,7 +12489,7 @@ h5,
 }
 
 .product-category li a {
-  color: #82ae46;
+  text-decoration: none;
   padding: 5px 20px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -12626,6 +12630,7 @@ h5,
 }
 
 .product .text h3 a {
+  text-decoration: none;
   color: #000000;
 }
 
@@ -12877,9 +12882,6 @@ h5,
   color: #000000;
 }
 
-.cart-list {
-  overflow-x: scroll;
-}
 
 .table {
   min-width: 1000px !important;
@@ -12956,7 +12958,7 @@ h5,
   width: 100%;
   display: block;
   border: 1px solid rgba(0, 0, 0, 0.05);
-  padding: 20px;
+  padding: 45px;
 }
 
 .cart-total h3 {
@@ -13409,7 +13411,7 @@ textarea.form-control {
   margin-bottom: 10px;
   font-family: "Lora", Georgia, serif;
   font-style: italic;
-  color: #82ae46;
+  color: #000;
 }
 
 .heading-section h2 {
@@ -13417,7 +13419,7 @@ textarea.form-control {
   font-size: 40px;
   font-weight: 600;
   color: #000000;
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 @media (max-width: 767.98px) {
@@ -13454,6 +13456,7 @@ textarea.form-control {
 }
 
 .ftco-services .services {
+  padding: 10px 10px;
   display: block;
   width: 100%;
   -moz-transition: all 0.3s ease;
@@ -13512,7 +13515,7 @@ textarea.form-control {
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 500;
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: #000000;
 }
 
@@ -13521,6 +13524,7 @@ textarea.form-control {
   color: rgba(0, 0, 0, 0.5);
   font-size: 12px;
   font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .ftco-services .services:hover .icon,
@@ -13856,6 +13860,7 @@ textarea.form-control {
 }
 
 .blog-entry .text .heading a {
+  text-decoration: none;
   color: #000000;
 }
 
@@ -13883,6 +13888,7 @@ textarea.form-control {
 }
 
 .blog-entry .meta>div a {
+  text-decoration: none;
   color: black;
   font-size: 12px;
 }
@@ -14045,6 +14051,7 @@ textarea.form-control {
 
 .block-27 ul li a,
 .block-27 ul li span {
+  text-decoration: none;
   color: #000000;
   text-align: center;
   display: inline-block;
@@ -14466,13 +14473,6 @@ textarea.form-control {
   height: auto;
 }
 
-.row2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: contents;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
 
 .section-p1 {
   padding: 20px 40px;
@@ -14515,14 +14515,11 @@ footer .col {
   color: #000;
   font-size: 30px;
   padding: 10px 10px;
-  background: rgba(0, 0, 0, 0.03);
   border-radius: 50%;
   margin: 0px 12px;
 }
-
-.fa-brands:hover {
-  background-color: #218838;
-  transition: 0.8s;
+footer ,i:hover{
+  background-color: #fff;
 }
 .icon-head-1{
   color: #000;
@@ -14959,4 +14956,25 @@ body.dark .search-field i{
 }
 .logo-ahp{
 border-radius: 50%;
+}
+.heading-it{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+}
+#home-section{
+  padding-top: 70px;
+}
+
+.nut_dropdown {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 }
